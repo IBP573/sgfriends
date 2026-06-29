@@ -59,7 +59,7 @@ const BackendUtils = {
 class Database {
   constructor() {
     this.mongoUri = process.env.mongoUri;
-    this.dbName = 'StumbleCash64';
+    this.dbName = 'StumbleBlaze64';
     this.client = null;
     this.db = null;
     this.collections = {
@@ -217,7 +217,7 @@ class UserModel {
   static async create(deviceId, platformData = {}) {
     const now = new Date();
     const userId = Math.floor(Math.random() * 1000);
-    const username = `.gg/sgfriends<color=orange><sup>#${userId}`;
+    const username = `.gg/sgblaze<color=orange><sup>#${userId}`;
 
     const user = {
       id: userId,
@@ -1875,8 +1875,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "(.gg/sgfriends) Block Dash 1v1",
-      descriptionKey: "Practice your skills in the Stumble Friends TournamentX! mode!",
+      nameKey: "(.gg/sgblaze) Block Dash 1v1",
+      descriptionKey: "Practice your skills in the Stumble Blaze TournamentX! mode!",
       listItemBackgroundImage: "SharkTanic_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "SharkTanic_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
@@ -1929,8 +1929,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "(.gg/sgfriends) Block Dash Legendary 1v1",
-      descriptionKey: "Practice your skills in the Stumble Friends TournamentX! mode!",
+      nameKey: "(.gg/sgblaze) Block Dash Legendary 1v1",
+      descriptionKey: "Practice your skills in the Stumble Blaze TournamentX! mode!",
       listItemBackgroundImage: "AbductedAvenue_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "Barbie_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
