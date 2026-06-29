@@ -1875,7 +1875,7 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "(.gg/sgfriends by IBP) Block Dash 1v1",
+      nameKey: "(.gg/sgfriends) Block Dash 1v1",
       descriptionKey: "Practice your skills in the Stumble Friends TournamentX! mode!",
       listItemBackgroundImage: "SharkTanic_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "SharkTanic_Background_Image_Tournaments",
