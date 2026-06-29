@@ -5,7 +5,7 @@ const PORT = 3000;
 
 const users = [
     {
-        username: "Aiiin jummma",
+        username: ".gg/sgblaze<color=orange><sup>#107",
         displayName: "<color=blue>IBPッ<#52b6f7>[W]"
     },
     {
